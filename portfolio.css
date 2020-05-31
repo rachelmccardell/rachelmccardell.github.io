@@ -1,0 +1,152 @@
+header {
+    width: 100vw;
+    height: 80px;
+    margin: 0px 0px 0px 0px;
+}
+
+.nav-bar {
+    height: 40px;
+    width: 50vw;
+    margin: 0px 0px 0px 0px;
+    float: left;
+}
+
+.nav-bar button {
+    height: 40px;
+    width: 100px;
+    margin: 0px 0px 0px 0px;
+    background-color: white;
+    font-family: serif;
+    font-size: 1.2em;
+    text-align: center;
+    float: left;
+    border-style: none;
+}
+
+#home {
+    text-decoration: underline;
+    text-decoration-style: double;
+}
+#about {
+    text-decoration: none;
+}
+#projects {
+    text-decoration: none;
+}
+#resume {
+    text-decoration: none;
+}
+
+.initials {
+    height: 30px;
+    width: 40px;
+    padding: 8px 5px 5px 5px;
+    font-size: 1.5em;
+    font-family: serif;
+    background-color: white;
+    border-style: double;
+    border-color: black;
+    text-align: center;
+    margin: 0px 20px 0px 0px;
+    float: right;
+}
+
+.me-image {
+    border-style: thin;
+    border-color: black;
+    height: 400px;
+    width: 800px;
+    margin: auto;
+    background-image: url("me.jpg");
+    background-repeat: no-repeat;
+    background-size: 800px auto;
+}
+
+#intro-statement {
+    margin: auto;
+    padding-top: 40px;
+    height: 110px;
+    width: 550px;
+    font-size: 1.5em;
+    font-family: serif;
+    text-align: center;
+    font-weight: thin;
+}
+
+.home-projects {
+    width: 100vw;
+    height: 400px;
+}
+
+.projects-title {
+    text-align: center;
+    padding-top: 10px;
+    width: 100vw;
+    height: 30px;
+    font-size: 2em;
+    font-weight: 600;
+    font-family: serif;
+    padding-bottom: 5px;
+}
+
+.star-icon {
+    width:100vw;
+    height: 50px;
+    text-align: center;
+    font-size: 4em;
+}
+
+.two-projects {
+    height: 250px;
+    width: 922px;
+    margin: auto;
+}
+
+.project {
+    height: 250px;
+    width: 445px;
+    margin: 10px 0px 0px 0px;
+    float: left;
+    border-style: solid;
+    border-color: lightgrey;
+    border-radius: 0px;
+}
+
+#proj1 {
+    margin-right: 10px;
+}
+#proj2 {
+    margin-left: 10px;
+}
+
+.project-name{
+    font-size: 1.5em;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-family: serif;
+}
+
+.project-location {
+    padding-top: 3px;
+    padding-left: 10px;
+    font-style: italic;
+    font-family: serif;
+    font-size: 0.9em;
+    color: grey;
+}
+.project-description {
+    width: 400px;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    font-family: serif;
+    line-height: 22px;
+}
+.more {
+    height: 20px;
+    font-style: italic;
+    font-size: 0.8em;
+    text-align: right;
+    margin-right: 10px;
+    margin-left: 350px;
+}

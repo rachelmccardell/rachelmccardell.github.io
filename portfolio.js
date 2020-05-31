@@ -10,4 +10,33 @@ function typeWriter() {
     }
 }
 
+function home_underline() {
+    document.getElementById("home").setAttribute("style", "text-decoration: underline; text-decoration-style: double;");
+    document.getElementById("about").setAttribute("style", "text-decoration: none;");
+    document.getElementById("projects").setAttribute("style", "text-decoration: none;");
+    document.getElementById("resume").setAttribute("style", "text-decoration: none;");
+
+}
+
+function about_underline() {
+    document.getElementById("home").setAttribute("style", "text-decoration: none;");
+    document.getElementById("about").setAttribute("style", "text-decoration: underline; text-decoration-style: double;");
+    document.getElementById("projects").setAttribute("style", "text-decoration: none;");
+    document.getElementById("resume").setAttribute("style", "text-decoration: none;");
+}
+
+function projects_underline() {
+    document.getElementById("home").setAttribute("style", "text-decoration: none;");
+    document.getElementById("about").setAttribute("style", "text-decoration: none;");
+    document.getElementById("projects").setAttribute("style", "text-decoration: underline; text-decoration-style: double;");
+    document.getElementById("resume").setAttribute("style", "text-decoration: none;");
+}
+
+function resume_underline() {
+    document.getElementById("home").setAttribute("style", "text-decoration: none;");
+    document.getElementById("about").setAttribute("style", "text-decoration: none;");
+    document.getElementById("projects").setAttribute("style", "text-decoration: none;");
+    document.getElementById("resume").setAttribute("style", "text-decoration: underline; text-decoration-style: double;");
+}
+
 document.onload = typeWriter();

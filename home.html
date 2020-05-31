@@ -1,22 +1,40 @@
 <!DOCTYPE html>
     <header>
         <div class="nav-bar">
-            <button class="home">Home</button>
-            <button class="about">About</button>
-            <button class="projects">Projects</button>
-            <button class="resume">Resume</button>
+            <button onclick="home_underline()" id="home">Home</button>
+            <button onclick="about_underline()" id="about">About</button>
+            <button onclick="projects_underline()" id="projects">Projects</button>
+            <button onclick="resume_underline()" id="resume">Resume</button>
         </div>
         <div class="initials">RM</div>
-        <link rel="stylesheet" type="text/css" href="styles.css"/>
+        <link rel="stylesheet" type="text/css" href="portfolio.css"/>
     </header>
     <body>
         <div class="me-image"></div>
         <p id="intro-statement"></p>
         <div class="home-projects">
             <div class="projects-title">PROJECTS</div>
-            <div class="star-icon">*</div>
-            <div class="project" id="proj1"></div>
-            <div class="project" id="proj2"></div>
+            <div class="star-icon">***</div>
+            <div class="two-projects">
+                <div class="project" id="proj1">
+                    <div class="project-name">NASA Team Task Switching</div>
+                    <div class="project-location">ATLAS Lab, Evanston, IL</div>
+                    <p class="project-description">I currently work as an undergraduate research assistant
+                        at the ATLAS Lab at Northwestern. My most recent project with ATLAS has been conducted
+                        in cooperation with NASA to study astronauts being held in isolation in Russia's NEK. The 
+                        purpose of this study is to understand differences in team dynamic and leadership that may arise 
+                        while in space.
+                    </p>
+                    <a class="more" href="https://atlas.northwestern.edu/project/nasa-team-task-switching/">More info>>></a>
+                </div>
+                <div class="project" id="proj2">
+                    <div class="project-name">Second Project</div>
+                    <div class="project-location">I haven't done projects</div>
+                    <p class="project-description">But when I do something relevant that I am proud of
+                        I will definitely add it here. Hoping to start on something this summer. We'll see.</p>
+                    <div class="more">More info>>></div>
+                </div>
+            </div>
         </div>
         <script src="portfolio.js"></script>
     </body>
